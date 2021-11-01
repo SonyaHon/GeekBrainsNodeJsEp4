@@ -1,0 +1,25 @@
+{
+  "name": "gb_nodejs_ep_5",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "super_program": "demo/exmaple4.js"
+  },
+  "scripts": {
+    "demo:1": "node demo/example1.js",
+    "demo:2": "node demo/example2.js",
+    "demo:3": "node demo/example3.js",
+    "demo:4": "node demo/exmaple4.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
